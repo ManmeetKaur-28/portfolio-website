@@ -1,0 +1,15 @@
+DOCUMENTATION OF PROJECT :  
+1. Installing Figma
+To start the design, I instaled Figma, a powerful design tool. Once installed, I familiarized myself with the Figma interface, which includes the design tools, layers panel, and components.
+
+2. Designing process 
+I began by making the layout of website on  Figma  and created a  digital design. I made 
+a simple one-page design with sections for an introduction, about me , skills, projects, and contact and choose clean, minimalist color scheme and modern fonts to maintain a professional look.
+ 
+3. Converting Design to Code - 
+Once the design was finalized in Figma, I moved on to coding it using HTML and CSS.
+HTML: I structured the webpage using semantic tags such as <header>,<section> and <footer>.
+Sections created: home , about me , skills , project and contact me .
+CSS: I used CSS for styling, ensuring the design matched the Figma prototype. Flexbox was also used for making a responsive layout.I also used media queries to make the site mobile-friendly. I also provided hover effect on links in the website .
+
+in a nutshell, This project allowed me to gain hands-on experience with the full process of web design and development. Using Figma for designing helped me to plan and visualize the site before writing any code. The process of translating that design into HTML and CSS was both challenging and rewarding, as I learned how to create a functional and aesthetically pleasing website.
