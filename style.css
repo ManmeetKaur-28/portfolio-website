@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    background-color:#405D72 ;
+    display:flex;
+    justify-content: space-between;
+    width:100vw;
+    height:10vh;
+    align-items:center;
+    padding: 10px;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+#main{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:60vw;
+    min-height : 50vh;
+    padding-right: 20px;
+    /* background-color: blueviolet; */
+}
+.img1 , .img3{
+    width:25vw;
+    padding-top: 10vh;
+    padding-left: 5vh;
+    
+}
+
+.skills-ul{
+    list-style: none;
+}
+
+#home{
+    display: flex;
+    background-color: #F7E7DC;
+    padding: 10px;
+    width:100vw;
+    padding-left: 20px;
+}
+
+.greeting{
+  font-size: 30px;
+}
+
+.name{
+    font-size: 55px;
+}
+.role{
+    font-size: 40px;
+}
+.info{
+    font-size: 20px;
+}
+
+.heading{
+    font-size: 35px;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.about-me-both , .skills-both{
+    display: flex;
+}
+
+.about-me-ul{
+    list-style: none;
+    width:30vw;
+    padding: 20px;
+    text-align:center;
+}
+
+.about-me-content ,  .project-info{
+    width: 70vw;
+    padding: 15px;
+}
+
+#about-me{
+    min-height:50vh;
+    
+}
+
+.pp {
+    width:20vw;
+}
+
+.skill-info{
+    padding-left: 10px;
+    width:50vw;
+}
+
+.img3 {
+    width: 30vw;
+    padding-top: 5vh;
+    
+}
+
+#skills{
+    background-color: #F7E7DC;
+    padding: 10px;
+    width:100vw;
+    padding-left: 20px;
+}
+
+.project-both{
+    display:flex;
+    justify-content: space-between;
+}
+
+.project-info{
+    
+    line-height:25px ;
+
+    padding-left: 10vw;
+}
+
+#project{
+    padding: 20px;
+}
+
+.img4{
+    width:50vw;
+    padding-top: 10px;
+}
+.project-img{
+    list-style: none;
+}
+
+footer{
+    background-color: #405D72;
+    text-align: center;
+    width: 100vw;
+}
+
+h3{
+    padding:30px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    transition: all 0.3s;
+}
+
+a:hover{
+    color:#DEAC80;
+}
+.skill-content{
+    width:50vw;
+    padding: 10px;
+}
+.img3{
+    padding-left: 50px;
+}
+@media (max-width : 770px){
+    .greeting{
+        font-size: 20px;
+      }
+      
+      .name{
+          font-size: 40px;
+      }
+      .role{
+          font-size: 30px;
+      }
+      .info{
+          font-size: 15px;
+      }
+      #home-content{
+        min-height:40vh;
+      }
+      .img1{
+        width:30vw;
+      }
+      #main{
+        font-size:20px;
+      }
+      header{
+        flex-direction: column;
+      }
+
+}
